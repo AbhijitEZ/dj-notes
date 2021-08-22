@@ -80,9 +80,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'core.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
+# Database configuration for the mongodb needs djongo for mongo with django connection
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
