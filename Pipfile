@@ -7,6 +7,8 @@ name = "pypi"
 django = "*"
 django-rest-framework = "*"
 djongo = "*"
+pymongo = {extras = ["srv"], version = "*"}
+django-environ = "*"
 
 [dev-packages]
 autopep8 = "*"
